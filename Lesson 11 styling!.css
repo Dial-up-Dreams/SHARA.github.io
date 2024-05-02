@@ -1,0 +1,74 @@
+
+#intro{background-image: url("https://64.media.tumblr.com/92d5d525e6cb44388030bdde555758de/4213eaa277ea8865-9e/s250x400/0dfeca0eda20930c68ed539f7f8351d6653f1507.gif");text-align: center;
+height: fit-content; justify-content: center; color: aliceblue;}
+body {background-image: url("https://64.media.tumblr.com/e18ba48cab9a030c0071417ee6e0847f/98ef390f414b175d-b6/s250x400/06e1a49639f79fa66d1be1d48830b87e2e712a6f.pnj");
+ }
+
+h2{margin: 20px; font-size: 30px;}
+
+.center{text-align: center;}
+
+p{font-size: 30px;}
+
+a:hover{color: rgb(247, 52, 68);}
+
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.flex-container>div{
+    margin: 30px; 
+    padding: 10px;
+    font-size: 20px;
+    width: 270px;
+    height: 150px;
+    align-content: center;
+    color: aliceblue;
+    background-image: url("https://64.media.tumblr.com/dad395fdfa7c4a1dd15479e86d08dd77/f706359f72296413-41/s250x400/f534adf589853af3998915eb44345dcfb5ee42aa.gif");
+    max-width: 40%;}
+
+.profile-card{
+    color: aliceblue;
+    text-align: center;
+    margin: 20px;
+    background-image: url("https://64.media.tumblr.com/7800ff667b45f072b1813f05f2d3b788/71a1fb2962ee99e8-5a/s400x600/b474fb0898e0a82d3ba541797d5cf2d08eb5fdc3.gif");
+    padding: 10px;
+}
+
+.footer-links{
+    color: aliceblue;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/555.GIF");
+}
+.footer-links>div{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(210, 194, 230);
+}
+
+.hobbies{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.hobbies>div{
+    color: antiquewhite;
+    padding: 20px;
+    border: 5px solid rgb(236, 52, 95);
+    align-content: center;
+    font-size: 30px;
+    background-image: url("https://bettysgraphics.neocities.org/images/backgrounds/778.GIF");
+}
